@@ -156,3 +156,95 @@ body {
     transition: 0.3s;
     cursor: pointer;
 }
+
+
+
+
+
+footer {
+  color: #fff;
+  padding: 20px 0;
+  background-color: #420c0c;
+
+}
+
+.footer-content {
+  max-width: 1200px;
+  /* Adjust as needed */
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: left;
+
+}
+
+.logo-container img {
+  height: 50px;
+  /* Adjust as needed */
+  margin-right: 10px;
+  /* Adjust as needed */
+}
+
+
+
+.copyright-container {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  /* Adjust the maximum width as needed */
+  font-size: 11px;
+
+
+}
+
+.logo-text {
+  font-size: 10px;
+  line-height: 2px;
+  font-size: 20px;
+  font-family: 'Oswald';
+  padding-bottom: 1px;
+}
+
+
+
+
+.socialicons {
+  display: flex;
+  cursor: pointer;
+  margin-top: 35px;
+
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+
+  background-color: white;
+}
+
+.socialicons a {
+  font-size: 20px;
+  color: black;
+}
+
+
+
+.loglog {
+  margin: 12px;
+  min-height: 5px;
+
+
+}
+
+.grey {
+  background-color: #420c0c;
+  min-height: 250px;
+
+}
