@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', serif;
+    scroll-behavior: smooth;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: #420c0c;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Oswald';
+}
+
+.navbar li {
+    background-color: #330909;
+    margin: 3px;
+}
+
+.navbar li:hover {
+    background-color: #f8aa01;
+    color: #420c0c;
+    transition: 0.3s;
+}
+
+.navbar li:not(:last-child) a {
+    margin-right: 10px;
+}
+
+.logo {
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    filter: drop-shadow(0px 0px 6px rgba(255, 213, 2, 5));
+}
+
+.upperphoto {
+    float: left;
+    margin-right: 0;
+    width: 50%;
+}
+
+.policy {
+    margin-right: 5%;
+    margin-top: 8%;
+    font-family: 'oswald';
+}
+
+.applicants {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'serif';
+}
+
+.classification {
+    font-size: larger;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'oswald';
+}
+
+.requirements {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'serif';
+}
+
+.needs {
+    font-size: larger;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'oswald';
+}
+
+.additional {
+    font-size: larger;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'oswald';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.dropbtn {
+    background-color: #ffd67f;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'oswald';
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 500px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'oswald';
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'oswald';
+}
+
+#selectedText {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'oswald';
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.dropbtn:hover {
+    background-color: #ffae00;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    font-family: 'oswald';
+    transition: 0.3s;
+    cursor: pointer;
+}
